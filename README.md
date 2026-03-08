@@ -2,9 +2,9 @@
 
 Este repositorio contiene mi **documentación personal sobre la configuración de Arch Linux**, organizada como una web estática usando **MkDocs**.
 
-La idea del proyecto es documentar paso a paso mi entorno de trabajo: herramientas, configuración del sistema, programas, y ajustes que utilizo en mi instalación de Arch Linux.
+La idea del proyecto es documentar paso a paso mi entorno: configuración del sistema, terminal, ajustes de GNOME, etc.
 
-La documentación se genera como un sitio web local que permite navegar fácilmente por todas las guías.
+La documentación se genera como un sitio web local que permite navegar fácilmente.
 
 ---
 
@@ -14,21 +14,26 @@ Para trabajar con la documentación necesitas tener instalado:
 
 * Python
 * pip
-* entorno virtual (`venv`)
+
+---
+
+## Clona el repositorio
+
+Clona el repositorio y entra en el:
+
+```bash
+git clone https://github.com/sergiooopt/configuracion-archlinux.git
+cd configuracion-archlinux
+```
 
 ---
 
 ## Crear el entorno virtual
 
-Primero crea un entorno virtual de Python:
+Crea un entorno virtual de Python para instalar posteriormente las dependencias:
 
 ```bash
 python -m venv venv
-```
-
-Actívalo:
-
-```bash
 source venv/bin/activate
 ```
 
@@ -44,7 +49,7 @@ pip install mkdocs mkdocs-dracula-theme
 
 ---
 
-## Ejecutar el servidor de desarrollo
+## Ejecutar el servidor
 
 Una vez instalado todo, puedes iniciar el servidor local de MkDocs:
 
@@ -52,39 +57,4 @@ Una vez instalado todo, puedes iniciar el servidor local de MkDocs:
 mkdocs serve
 ```
 
-MkDocs generará el sitio y lo servirá en:
-
-```
-http://localhost:8000
-```
-
-Desde ahí podrás visualizar y navegar por toda la documentación.
-
----
-
-## Estructura del proyecto
-
-```
-.
-├── docs/        # Documentación en formato Markdown
-├── assets/      # Recursos adicionales (imágenes, etc.)
-├── mkdocs.yml   # Configuración de MkDocs
-└── venv/        # Entorno virtual de Python
-```
-
----
-
-## Objetivo del proyecto
-
-Este proyecto sirve como:
-
-* Documentación de mi configuración de Arch Linux
-* Referencia rápida para reinstalar mi sistema
-* Repositorio público de configuraciones y guías
-
----
-
-## Licencia
-
-Este proyecto se comparte como documentación abierta para referencia y aprendizaje.
-x
+Para ver la documentacion ve a 'http://localhost:8000' en cualquier navegador web.
