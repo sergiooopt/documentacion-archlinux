@@ -1,0 +1,23 @@
+#back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #bd93f9;
+  color: #282a36;
+  font-size: 28px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 9999;
+}
+
+#back-to-top:hover {
+  background: #a77df4;
+}
+
+html {
+  scroll-behavior: smooth;
+}

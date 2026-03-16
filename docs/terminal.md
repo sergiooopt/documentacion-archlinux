@@ -14,7 +14,7 @@ sudo pacman -S fish
 
 Ahora para que al abrir la terminal se lance Fish en vez de Bash yo cree un nuevo perfil en la aplicación de gnome-terminal:
 
-![Perfil de gnome-terminal](Imagenes/1-perfil-terminal.png)
+![Perfil de gnome-terminal](images/1-perfil-terminal.png)
 
 Al activar ejecutar un comando personalizado le digo que al iniciar use la shell fish, hay mas maneras de hacerlo pero está es la que más me gusta.
 
@@ -58,7 +58,7 @@ nano .config/fish/config.fish
 
 Debajo del comentario añadimos lo que queremos que se ejecute en cada nueva sesión de la shell:
 
-![Configuración de fish](Imagenes/2-config-fish.png)
+![Configuración de fish](images/2-config-fish.png)
 
 ---
 
@@ -98,4 +98,4 @@ Yo voy a usar el tema de Dracula por lo cual voy a cambiar `oh-my-posh init fish
 
 El resultado es:
 
-![Terminal](Imagenes/3-terminal.png)
+![Terminal](images/3-terminal.png)

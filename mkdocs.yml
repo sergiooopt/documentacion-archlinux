@@ -1,8 +1,15 @@
 site_name: Mi Configuración de ArchLinux
+
 nav:
     - Presentación: index.md
-    - Configuración inicial: Configuracion/configuracion.md
-    - Terminal: Configuracion/terminal.md
+    - Configuración: configuracion.md
+    - Terminal: terminal.md
+
 theme:
-    # name: simple-blog
     name: dracula
+
+extra_css:
+  - css/fab.css
+
+extra_javascript:
+  - javascript/fab.js

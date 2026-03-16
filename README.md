@@ -17,7 +17,7 @@ Para trabajar con la documentación necesitas tener instalado:
 
 ---
 
-## Clona el repositorio
+## Clonar el repositorio
 
 Clona el repositorio y entra en el:
 
