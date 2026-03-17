@@ -1,10 +1,17 @@
 # Configuración de terminal
 
+---
+
+- [Instalar Fish](#instalar-fish)
+- [Alias en Fish](#alias-en-fish)
+- [Fastfetch](#fastfetch)
+- [Oh-My-Posh](#instalar-y-configurar-oh-my-posh)
+
 Explicare los pasos para configurar una shell **fish** con **oh-my-posh** (un proyecto para personalizar el prompt compatible con distintos shell).
 
 ---
 
-### Instalación de Fish
+### Instalar Fish
 
 Instalamos la shell:
 
@@ -14,7 +21,7 @@ sudo pacman -S fish
 
 Ahora para que al abrir la terminal se lance Fish en vez de Bash yo cree un nuevo perfil en la aplicación de gnome-terminal:
 
-![Perfil de gnome-terminal](images/1-perfil-terminal.png)
+![Perfil de gnome-terminal](../images/1-perfil-terminal.png)
 
 Al activar ejecutar un comando personalizado le digo que al iniciar use la shell fish, hay mas maneras de hacerlo pero está es la que más me gusta.
 
@@ -58,7 +65,9 @@ nano .config/fish/config.fish
 
 Debajo del comentario añadimos lo que queremos que se ejecute en cada nueva sesión de la shell:
 
-![Configuración de fish](images/2-config-fish.png)
+![Configuración de fish](../images/2-config-fish.png)
+
+¡¡En la configuración está mál escrito `fastfetch -c palofetch-jsonc` deberia ser: `fastfetch -c paleofetch.jsonc`!!
 
 ---
 
@@ -78,7 +87,7 @@ Ahora instalaremos las mismas fuentes que se muestrán en la [documentación](ht
 oh-my-posh font install meslo
 ```
 
-El fichero de configuracion de fish ~/.config/fish/config.fish debe ser algo como esto:
+El fichero de configuracion de fish `~/.config/fish/config.fish` debe ser algo como esto:
 
 ```fish
 if status is-interactive
@@ -98,4 +107,4 @@ Yo voy a usar el tema de Dracula por lo cual voy a cambiar `oh-my-posh init fish
 
 El resultado es:
 
-![Terminal](images/3-terminal.png)
+![Terminal](../images/3-terminal.png)

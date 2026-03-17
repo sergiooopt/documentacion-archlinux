@@ -1,9 +1,11 @@
 site_name: Mi Configuración de ArchLinux
 
 nav:
-    - Presentación: index.md
-    - Configuración: configuracion.md
-    - Terminal: terminal.md
+    - Índice: index.md
+    - Presentación: doc/presentacion.md
+    - Instalación: doc/instalacion.md
+    - Configuración: doc/configuracion.md
+    - Terminal: doc/terminal.md
 
 theme:
     name: dracula

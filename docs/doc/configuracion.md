@@ -1,4 +1,10 @@
-# Configuración inicial
+# Configuración de sistema
+
+---
+
+- [Instalar terminal](#instalar-una-terminal)
+- [Instalar AUR](#instalar-un-gestor-de-paquetes-para-aur)
+- [Instalar navegador web](#instalar-un-navegador-web)
 
 Ahora vamos a hacer los primeros pasos de la configuración.
 
