@@ -34,7 +34,6 @@ Crea un entorno virtual de Python para instalar posteriormente las dependencias:
 
 ```bash
 python -m venv venv
-source venv/bin/activate
 ```
 
 ---
@@ -49,9 +48,19 @@ pip install mkdocs mkdocs-dracula-theme
 
 ---
 
+## Activar entorno virtual
+
+Activa el entorno virtual para poder usar las dependencias instaladas:
+
+```bash
+source venv/bin/activate
+```
+
+---
+
 ## Ejecutar el servidor
 
-Una vez instalado todo, puedes iniciar el servidor local de MkDocs:
+Ahora puedes iniciar el servidor local de MkDocs:
 
 ```bash
 mkdocs serve

@@ -5,12 +5,12 @@ nav:
     - Presentación: presentacion.md
     - Configuración: configuracion.md
     - Terminal: terminal.md
+    - Posibles errores: errors.md
 
 theme:
-    name: dracula
+    name: material
+    palette:
+      - scheme: slate
 
-extra_css:
-  - css/fab.css
-
-extra_javascript:
-  - javascript/fab.js
+    features:
+      - navigation.top

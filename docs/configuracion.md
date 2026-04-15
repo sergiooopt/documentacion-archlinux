@@ -19,7 +19,7 @@ Quería incluir este punto para dar a conocer una aplicación de terminal que es
 Muestra una interfaz desde la terminal para visualizar los procesos y el rendimiento del equipo. Además tiene configuración que permite hacer muchos cambios (el más util poner un
 tema a tu gusto) de manera muy intuitiva.
 
-Para instalar en Arch Linux es tán sencillo como:
+Para instalar en Arch Linux es tan sencillo como:
 
 ```bash
 sudo pacman -S btop
