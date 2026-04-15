@@ -43,7 +43,7 @@ python -m venv venv
 Instala MkDocs y el tema utilizado en el proyecto:
 
 ```bash
-pip install mkdocs mkdocs-dracula-theme
+pip install mkdocs mkdocs-material
 ```
 
 ---
