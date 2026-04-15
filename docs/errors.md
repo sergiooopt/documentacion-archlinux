@@ -20,3 +20,5 @@ Mi solución fue forzar el funcionamiento de las extensiones, hay que entender q
 ```bash
 gsettings set org.gnome.shell disable-extension-version-validation true
 ```
+
+Este comando como se puede entender le dice a la configuración de GNOME que no haga validación sobre la versión de la extensiones.

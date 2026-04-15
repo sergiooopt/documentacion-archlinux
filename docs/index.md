@@ -1,6 +1,6 @@
 # Índice de documentación
 
-Bienvenido a la documentación. Aquí tienes los apartados disponibles:
+Bienvenido a la documentación. Aquí tienes los apartados disponibles.
 
 ---
 
@@ -9,6 +9,7 @@ Bienvenido a la documentación. Aquí tienes los apartados disponibles:
 - [Presentación](presentacion.md)
 - [Configuración](configuracion.md)
 - [Terminal](terminal.md)
+- [Posibles errores](errors.md)
 
 ---
 
