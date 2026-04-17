@@ -2,28 +2,9 @@
 
 ---
 
-- [Monitorización del sistema](#monitorizacion-del-sistema-operativo)
 - [Instalar AUR](#instalar-un-gestor-de-paquetes-para-aur)
+- [Monitorización del sistema](#monitorizacion-del-sistema-operativo)
 - [Extensiones de GNOME](#extensiones-de-gnome)
-
-Ahora vamos a hacer los primeros pasos de la configuración.
-
----
-
-### Monitorización del sistema operativo
-
-Quería incluir este punto para dar a conocer una aplicación de terminal que es una maravilla pero que no es muy conocida, esta aplicacion es **btop**.
-
-![Btop](images/configuracion-btop.png)
-
-Muestra una interfaz desde la terminal para visualizar los procesos y el rendimiento del equipo. Además tiene configuración que permite hacer muchos cambios (el más util poner un
-tema a tu gusto) de manera muy intuitiva.
-
-Para instalar en Arch Linux es tan sencillo como:
-
-```bash
-sudo pacman -S btop
-```
 
 ---
 
@@ -50,6 +31,23 @@ Cuando termine la instalación podemos eliminar el repositorio clonado:
 ```bash
 cd ..
 rm -rf yay
+```
+
+---
+
+### Monitorización del sistema operativo
+
+Quería incluir este punto para dar a conocer una aplicación de terminal que es una maravilla pero que no es muy conocida, esta aplicacion es **btop**.
+
+![Btop](images/configuracion-btop.png)
+
+Muestra una interfaz desde la terminal para visualizar los procesos y el rendimiento del equipo. Además tiene configuración que permite hacer muchos cambios (el más util poner un
+tema a tu gusto) de manera muy intuitiva.
+
+Para instalar en Arch Linux es tan sencillo como:
+
+```bash
+sudo pacman -S btop
 ```
 
 ---

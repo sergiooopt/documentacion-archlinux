@@ -1,10 +1,9 @@
-# Configuración de Arch Linux con MkDocs
+# Documentacion de Arch Linux con MkDocs
 
-Este repositorio contiene mi **documentación personal sobre la configuración de Arch Linux**, organizada como una web estática usando **MkDocs**.
+Este repositorio contiene mi documentación personal sobre la configuración de Arch Linux, se puede levantar como una página web.
 
-La idea del proyecto es documentar paso a paso mi entorno: configuración del sistema, terminal, ajustes de GNOME, etc.
-
-La documentación se genera como un sitio web local que permite navegar fácilmente.
+La idea de este repositorio es tener un documentación accesible sobre mi configuración y ser de ayuda a otras personas que quieran saber más
+sobre esta distro o sobre Linux en general. También tenía ganas de probar la herramienta [MkDocs](https://www.mkdocs.org/).
 
 ---
 

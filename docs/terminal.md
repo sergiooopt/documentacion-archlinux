@@ -7,8 +7,6 @@
 - [Fastfetch](#fastfetch)
 - [Oh-My-Posh](#instalar-y-configurar-oh-my-posh)
 
-Explicare los pasos para configurar una shell **fish** con **oh-my-posh** (un proyecto para personalizar el prompt compatible con distintos shell).
-
 ---
 
 ### Instalar Fish
@@ -31,20 +29,11 @@ Para quitar el mensaje de bienvenida podemos hacer `set -U fish_greeting`.
 
 ### Alias en Fish
 
-A continuación explico como añadir alias en esta shell con los alias que suelo usar.
+Para añadir alias en esta shell se hace de manera muy sencilla. Lo vemos con este ejemplo de alias que suelo usar:
 
-Alias para limpiar la pantalla y mostrar fastfetch:
 ```fish
 alias cl='clear && fastfetch -c paleofetch.jsonc'
 funcsave cl
-```
-
-Alias para funciones de apagado:
-```fish
-alias pw='poweroff'
-alias rb='reboot'
-funcsave pw
-funcsave rb
 ```
 
 ---
@@ -65,9 +54,12 @@ nano .config/fish/config.fish
 
 Debajo del comentario añadimos lo que queremos que se ejecute en cada nueva sesión de la shell:
 
-![Configuración de fish](images/config-fish.png)
-
-¡¡En la configuración está mal escrito `fastfetch -c palofetch-jsonc` deberia ser `fastfetch -c paleofetch.jsonc`!!
+```fish
+if status is-interactive
+  # Commands to run in interactive sessions can go here
+  fastfetch -c paleofetch.jsonc
+end
+```
 
 ---
 

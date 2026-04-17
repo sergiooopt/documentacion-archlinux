@@ -4,8 +4,6 @@
 
 - [Desactivación automática de extensiones GNOME](#extensiones-de-gnome-se-desactivan-automaticamente)
 
-En está página de la documentación redactare cosas que me han pasado desde la instalación y que he tenido que solucionar de alguna forma.
-
 ---
 
 ## Extensiones de GNOME se desactivan automáticamente
