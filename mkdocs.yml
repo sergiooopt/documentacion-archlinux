@@ -5,7 +5,7 @@ nav:
     - Presentación: presentacion.md
     - Configuración: configuracion.md
     - Terminal: terminal.md
-    - Posibles errores: errors.md
+    - Posibles errores: errores.md
 
 theme:
     name: material

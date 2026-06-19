@@ -1,68 +1,58 @@
 # Documentacion de Arch Linux con MkDocs
 
-Este repositorio contiene mi documentación personal sobre la configuración de Arch Linux, se puede levantar como una página web.
+Este repositorio contiene mi **documentación personal** sobre la configuración **de Arch Linux** que se puede levantar como una página web gracias a [MkDocs](https://www.mkdocs.org/).
 
-La idea de este repositorio es tener un documentación accesible sobre mi configuración y ser de ayuda a otras personas que quieran saber más
-sobre esta distro o sobre Linux en general. También tenía ganas de probar la herramienta [MkDocs](https://www.mkdocs.org/).
+La idea detrás de este repo es tener una documentación sobre las cosas más interesantes que voy modificando en mi sistema operativo Arch Linux, aunque cuento con dualboot con Windows 11 (el cual tengo un poco apartado >_<).
 
 ---
 
-## Requisitos
+## Estructura
 
-Para trabajar con la documentación necesitas tener instalado:
+```text
+documentacion-archlinux/
+│
+├── docs/            Archivos Markdown de documentación
+└── mkdocs.yml       Configuración de MkDocs
+```
+
+---
+
+## Puesta en marcha
+
+A continuación se explica **como levantar la web** con la documentación. Necesitamos tener instalado en nuestra máquina:
 
 * Python
 * pip
 
----
-
-## Clonar el repositorio
-
-Clona el repositorio y entra en el:
+También debemos clonar el repositorio:
 
 ```bash
 git clone https://github.com/sergiooopt/configuracion-archlinux.git
 cd configuracion-archlinux
 ```
 
----
+### Dependencias de Python
 
-## Crear el entorno virtual
-
-Crea un entorno virtual de Python para instalar posteriormente las dependencias:
+Creamos un entorno virtual para las dependencias de Python:
 
 ```bash
-python -m venv venv
+$ python -m venv venv
+$ source venv/bin/activate
 ```
 
----
-
-## Instalar dependencias
-
-Instala MkDocs y el tema utilizado en el proyecto:
+Instalamos las dependencias:
 
 ```bash
 pip install mkdocs mkdocs-material
 ```
 
----
 
-## Activar entorno virtual
+### Levantar web
 
-Activa el entorno virtual para poder usar las dependencias instaladas:
-
-```bash
-source venv/bin/activate
-```
+Ahora puedes iniciar el servidor local de MkDocs en **localhost:8000** con `mkdocs serve`.
 
 ---
 
-## Ejecutar el servidor
+## Licencia 
 
-Ahora puedes iniciar el servidor local de MkDocs:
-
-```bash
-mkdocs serve
-```
-
-Para ver la documentacion ve a `http://localhost:8000` en cualquier navegador web.
+Se incluye licencia MIT - [LICENSE](LICENSE) para hacer con este repositorio lo que se apetezca, carece un poco de sentido porque es algo más personal y por el momento no está versionado, pero ante todo libertad :)

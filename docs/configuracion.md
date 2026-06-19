@@ -2,13 +2,13 @@
 
 ---
 
-- [Instalar AUR](#instalar-un-gestor-de-paquetes-para-aur)
+- [Arch User Repository](#gestor-de-paquetes-para-aur)
 - [Monitorización del sistema](#monitorizacion-del-sistema-operativo)
 - [Extensiones de GNOME](#extensiones-de-gnome)
 
 ---
 
-### Instalar un gestor de paquetes para AUR
+## Gestor de paquetes para AUR
 
 El **AUR (Arch User Repository)** es un repositorio mantenido por la comunidad donde se encuentran los programas que no están en los repositorios oficiales.
 
@@ -33,16 +33,19 @@ cd ..
 rm -rf yay
 ```
 
+Los paquetes que no están en los repositorios oficiales se pueden descargar de AUR, pero siempre con precaución y sabiendo lo que instalamos, ya que no pasan las mismas revisiones que en los repos oficiales. 
+
+En mi caso me ha venido bien para instalar Brave, Android Studio, VS Code (distribución de Microsoft), etc.
+
 ---
 
-### Monitorización del sistema operativo
+## Monitorización del sistema operativo
 
-Quería incluir este punto para dar a conocer una aplicación de terminal que es una maravilla pero que no es muy conocida, esta aplicacion es **btop**.
+Quiero incluir esta sección para dar a conocer mi aplicación favorita de monitorizacion, esta aplicacion es **btop**.
 
 ![Btop](images/configuracion-btop.png)
 
-Muestra una interfaz desde la terminal para visualizar los procesos y el rendimiento del equipo. Además tiene configuración que permite hacer muchos cambios (el más util poner un
-tema a tu gusto) de manera muy intuitiva.
+Muestra una interfaz desde la terminal para visualizar los procesos y el rendimiento del equipo. Además se puede personalizar de manera bastante intuitiva.
 
 Para instalar en Arch Linux es tan sencillo como:
 
@@ -50,17 +53,19 @@ Para instalar en Arch Linux es tan sencillo como:
 sudo pacman -S btop
 ```
 
+> Siempre es más convenientes instalar de repos oficiales que de AUR :)
+
 ---
 
-### Extensiones de GNOME
+## Extensiones de GNOME
 
-Las extensiones de GNOME sirven para personalizar el sistema, voy a explicar como se instalan y voy a enseñar cuales uso.
+Como mencioné en la presentación, uso GNOME, el cual sin extensiones es demasiado simple :(
 
-La aplicación que recomiendo usar es:
+En esta sección voy a explicar desde 0 como se instalan las extensiones.
 
 ![Gestor de extensiones](images/gestor-extensiones.png)
 
-Si no viene instalado el gestor de paquetes flatpak lo instalamos:
+Necesitamos un gestor de extensiones, el cual instalaremos a través de Flatpak, si no tenemos flatpak es momento de instalarlo:
 
 ```bash
 sudo pacman -S flatpak
@@ -72,15 +77,15 @@ Ahora instalamos el gestor de extensiones en caso de que tampoco venga instalado
 flatpak install flathub com.mattjakeman.ExtensionManager
 ```
 
+Ahora desde la aplicación que hemos instalado podemos descargar las extensiones desde **Explorar** y visualizarlas desde **Instaladas**.
+
 Las extensiones que estoy usando son:
+
+* **Burn My Windows**: incluye varias animaciones al abrir y cerras las aplicaciones, yo uso "**Aparición**".
+* **Clipboard history**: historial para el portapapeles que por defecto se abre con **SUPER + SHIFT + V**.
+* **Dash to dock**: el clásico dock de GNOME, pero personalizable.
+* **Logo menu**: muestra el logo de la distribución con varias opciones en la barra superior.
 
 ![Extensiones](images/extensiones.png)
 
-* **App menu is back**: muestra en la barra superior la aplicación en uso.
-* **Blur My shell**: hace un movimiento de "desenfoque" en la barra superior, dock y fondo del menú de aplicaciones.
-* **Burn My Windows**: incluye varias animaciones al abrir y cerras las aplicaciones, yo uso "**Aparición**".
-* **Clipboard history**: historial para el portapapeles que por defecto se abre con **SUPER + SHIFT + V**.
-* **Dash to dock**: el clásico dock que incorpora GNOME 3, pero personalizable.
-* **Logo menu**: muestra el logo de la distribución con varias opciones en la barra superior.
-
-Estas son las extensiones que uso en mi sistema principal, es un entorno de escritorio GNOME bastante minimalista pero con algunas mejoras que GNOME no tiene por defecto.
+Aún con estas extensiones es un GNOME bastante minimalista, lo cual aprecio.

@@ -1,18 +1,14 @@
 # Índice de documentación
 
-Bienvenido a la documentación. Aquí tienes los apartados disponibles.
-
----
-
-## Secciones
+Bienvenido a la documentación. Aquí tienes los apartados disponibles:
 
 - [Presentación](presentacion.md)
 - [Configuración](configuracion.md)
 - [Terminal](terminal.md)
-- [Posibles errores](errors.md)
+- [Posibles errores](errores.md)
 
 ---
 
-## Comienzo
+### Comienzo
 
 Recomiendo empezar por la [presentación](presentacion.md), es donde explico la idea de este proyecto.

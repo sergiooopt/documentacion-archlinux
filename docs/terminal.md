@@ -9,7 +9,7 @@
 
 ---
 
-### Instalar Fish
+## Instalar Fish
 
 Instalamos la shell:
 
@@ -27,7 +27,7 @@ Para quitar el mensaje de bienvenida podemos hacer `set -U fish_greeting`.
 
 ---
 
-### Alias en Fish
+## Alias en Fish
 
 Para añadir alias en esta shell se hace de manera muy sencilla. Lo vemos con este ejemplo de alias que suelo usar:
 
@@ -38,7 +38,7 @@ funcsave cl
 
 ---
 
-### Fastfetch
+## Fastfetch
 Vamos a instalar **Fastfetch**, un paquete que en mi opinión es una gran mejora respecto al clásico **Neofetch**.
 
 ```bash
@@ -48,8 +48,8 @@ sudo pacman -S fastfetch
 Para aplicarlo en cada inicio en fish podemos configurar el archivo correspondiente, es parecido al .bashrc en bash o .zshrc en zsh:
 
 ```bash
-cd ~
-nano .config/fish/config.fish
+$ cd ~
+$ nano .config/fish/config.fish
 ```
 
 Debajo del comentario añadimos lo que queremos que se ejecute en cada nueva sesión de la shell:
@@ -63,9 +63,9 @@ end
 
 ---
 
-### Instalar y configurar Oh-My-Posh
+## Instalar y configurar Oh-My-Posh
 
-Ahora vamos con la personalización del prompt, aunque Fish también tiene un framework no lo veo tan relevante como en bash o zsh, ya que sin nada a mayores ya es una shell muy completa, por eso decidí usar oh-my-posh, que la función que va a tener es hacer la terminal más bonita.
+Ahora vamos con la personalización del prompt, aunque Fish también tiene un framework no lo veo tan relevante como en bash o zsh, ya que sin nada a mayores ya es una shell muy completa, por eso decidí usar oh-my-posh para tunear el prompt.
 
 Para la instalación:
 
@@ -73,7 +73,7 @@ Para la instalación:
 yay -S oh-my-posh-bin
 ```
 
-Ahora instalaremos las mismas fuentes que se muestrán en la [documentación](https://ohmyposh.dev/docs/installation/fonts):
+En mi caso instalo las mismas fuentes que se muestrán en la [documentación](https://ohmyposh.dev/docs/installation/fonts):
 
 ```bash
 oh-my-posh font install meslo
