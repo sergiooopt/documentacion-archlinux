@@ -11,8 +11,9 @@ La idea detrás de este repo es tener una documentación sobre las cosas más in
 ```text
 documentacion-archlinux/
 │
-├── docs/            Archivos Markdown de documentación
-└── mkdocs.yml       Configuración de MkDocs
+├── docs/         Archivos Markdown de documentación
+├── site/         Web construida con mkdocs build
+└── mkdocs.yml    Archivo de configuración
 ```
 
 ---
