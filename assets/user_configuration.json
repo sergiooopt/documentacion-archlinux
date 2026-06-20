@@ -1,0 +1,157 @@
+{
+    "app_config": null,
+    "archinstall-language": "Spanish",
+    "auth_config": {},
+    "bootloader_config": {
+        "bootloader": "Grub",
+        "removable": true,
+        "uki": false
+    },
+    "custom_commands": [],
+    "disk_config": {
+        "btrfs_options": {
+            "snapshot_config": null
+        },
+        "config_type": "manual_partitioning",
+        "device_modifications": [
+            {
+                "device": "/dev/sdb",
+                "partitions": [
+                    {
+                        "btrfs": [],
+                        "dev_path": null,
+                        "flags": [
+                            "boot",
+                            "esp"
+                        ],
+                        "fs_type": "fat32",
+                        "mount_options": [],
+                        "mountpoint": "/boot",
+                        "obj_id": "91a28523-22d8-4a2b-bd71-5202cc4d5f17",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "GiB",
+                            "value": 1
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "MiB",
+                            "value": 1
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    },
+                    {
+                        "btrfs": [
+                            {
+                                "mountpoint": "/",
+                                "name": "@"
+                            },
+                            {
+                                "mountpoint": "/home",
+                                "name": "@home"
+                            },
+                            {
+                                "mountpoint": "/var/log",
+                                "name": "@log"
+                            },
+                            {
+                                "mountpoint": "/var/cache/pacman/pkg",
+                                "name": "@pkg"
+                            }
+                        ],
+                        "dev_path": null,
+                        "flags": [],
+                        "fs_type": "btrfs",
+                        "mount_options": [
+                            "compress=zstd"
+                        ],
+                        "mountpoint": null,
+                        "obj_id": "ba20ace2-db8d-40bf-b877-8a1bfd473c57",
+                        "size": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 959120932864
+                        },
+                        "start": {
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 1074790400
+                        },
+                        "status": "create",
+                        "type": "primary"
+                    }
+                ],
+                "wipe": true
+            }
+        ]
+    },
+    "hostname": "archlinux-pc",
+    "kernels": [
+        "linux",
+        "linux-zen"
+    ],
+    "locale_config": {
+        "kb_layout": "es",
+        "sys_enc": "UTF-8",
+        "sys_lang": "es_ES.UTF-8"
+    },
+    "mirror_config": {
+        "custom_repositories": [],
+        "custom_servers": [],
+        "mirror_regions": {
+            "Spain": [
+                "https://ftp.rediris.es/mirror/archlinux/$repo/os/$arch",
+                "http://es.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "https://es.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "https://nox.panibrez.com/archlinux/$repo/os/$arch",
+                "http://mirror.raiolanetworks.com/archlinux/$repo/os/$arch",
+                "https://mirror.raiolanetworks.com/archlinux/$repo/os/$arch",
+                "http://mirror.es.cdn-perfprod.com/archlinux/$repo/os/$arch",
+                "https://mirror.es.cdn-perfprod.com/archlinux/$repo/os/$arch"
+            ]
+        },
+        "optional_repositories": [
+            "multilib"
+        ]
+    },
+    "network_config": {
+        "type": "nm_iwd"
+    },
+    "ntp": true,
+    "packages": [],
+    "parallel_downloads": 0,
+    "profile_config": {
+        "gfx_driver": "Nvidia (proprietary)",
+        "greeter": "gdm",
+        "profile": {
+            "custom_settings": {
+                "GNOME": {}
+            },
+            "details": [
+                "GNOME"
+            ],
+            "main": "Desktop"
+        }
+    },
+    "script": null,
+    "services": [],
+    "swap": {
+        "algorithm": "zstd",
+        "enabled": true
+    },
+    "timezone": "UTC",
+    "version": "3.0.15"
+}
