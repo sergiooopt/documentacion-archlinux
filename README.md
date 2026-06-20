@@ -8,15 +8,13 @@ La idea detrás de este repo es tener una documentación sobre las cosas más in
 
 ## Visualización
 
-Para visualizar la documentación desde una página web podemos entrar en [Github Pages](https://sergiooopt.github.io/documentacion-archlinux/).
+Para visualizar la documentación desde página web podemos entrar en [Github Pages](https://sergiooopt.github.io/documentacion-archlinux/).
 
-El flujo de trabajo para levantar la web con mkdocs es muy sencillo.
+El flujo de trabajo para levantar la web con mkdocs es muy sencillo. Cuando lanzas `mkdocs gh-deploy` hace por ti:
 
-1. Construyes la web: `mkdocs build`
-2. Preparas la rama gh-pages: `mkdocs gh-deploy`
-3. Pusheas al servidor y se levanta una Github Page apuntando a esa rama.
-
-> Si se quiere montar en un entorno local se explica más abajo como se puede hacer.
+1. `mkdocs build` temporal.
+2. Pasar el build a la rama gh-pages (si no existe se crea).
+3. Hacer commit y pushear a **origin** por defecto.
 
 ---
 
@@ -34,7 +32,7 @@ documentacion-archlinux/
 
 ## Puesta en marcha
 
-A continuación se explica **como levantar la web** con la documentación. Necesitamos tener instalado en nuestra máquina:
+A continuación se explica como **levantar la web** en un entorno **local**. Necesitamos tener instalado en nuestra máquina:
 
 * Python
 * pip
@@ -64,7 +62,7 @@ pip install mkdocs mkdocs-material
 
 ### Levantar web
 
-Ahora puedes iniciar el servidor local de MkDocs en **localhost:8000** con `mkdocs serve`.
+Ahora puedes iniciar el servidor local con `mkdocs serve`, por defecto arranca en **localhost:8000**.
 
 ---
 
