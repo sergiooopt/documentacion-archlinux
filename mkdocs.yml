@@ -1,11 +1,11 @@
-site_name: Mi Configuración de ArchLinux
+site_name: Mi Documentación de ArchLinux
 
 nav:
     - Índice: index.md
     - Presentación: presentacion.md
     - Configuración: configuracion.md
     - Terminal: terminal.md
-    - Posibles errores: errores.md
+    - Errores: errores.md
 
 theme:
     name: material

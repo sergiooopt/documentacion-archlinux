@@ -11,11 +11,17 @@
 
 ## ¿Por qué Arch Linux?
 
-He elegido Arch Linux debido a:
+Despues de usar durante varios meses distros como Debian o Fedora y tener un paso transistorio en varias otras distros como OpenSuse Tumbleweed, llegué a la decisión de usar Arch Linux.
 
-* Sistema de actualizaciones **rolling release**. Esto significa que es una distribución que está en constante actualización. 
+> Mis primeras distros fueron Ubuntu y Debian :)
+
+Arch Linux es una distro que recomendaria a toda persona medio-avanzada en Linux debido a:
+
 * Asume que eres un **usuario avanzado** y te deja libertad.
+* Sistema de actualizaciones **rolling release**. Esto significa que es una distribución que está en constante actualización. 
+* Facilidad de encontrar paquetes gracias a **AUR**.
 * Mejor **rendimiento** que otras distribuciones más cargadas.
+
 
 ---
 
@@ -38,6 +44,8 @@ Por ejemplo, en algun punto explico que estoy usando el kernel **ZEN** de Linux,
 Explicados los usos, te voy a decir brevemente como he enfocado la instalación del sistema.
 
 Utilizada la herramienta **archinstall** he elegido el entorno de escritorio GNOME, sobre el cual se basa esta documentación.
+
+Por desgracia, mi ordenador tiene una tarjeta nvidia (no conocía la existencia de Linux a la hora de comprar el ordenador), así que tal vez también lidiamos con algun problema por los drivers privativos de Nvidia, instalados desde **archinstall** también.
 
 ---
 

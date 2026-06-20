@@ -6,6 +6,20 @@ La idea detrás de este repo es tener una documentación sobre las cosas más in
 
 ---
 
+## Visualización
+
+Para visualizar la documentación desde una página web podemos entrar en [Github Pages](https://sergiooopt.github.io/documentacion-archlinux/).
+
+El flujo de trabajo para levantar la web con mkdocs es muy sencillo.
+
+1. Construyes la web: `mkdocs build`
+2. Preparas la rama gh-pages: `mkdocs gh-deploy`
+3. Pusheas al servidor y se levanta una Github Page apuntando a esa rama.
+
+> Si se quiere montar en un entorno local se explica más abajo como se puede hacer.
+
+---
+
 ## Estructura
 
 ```text
@@ -56,4 +70,4 @@ Ahora puedes iniciar el servidor local de MkDocs en **localhost:8000** con `mkdo
 
 ## Licencia 
 
-Se incluye licencia MIT - [LICENSE](LICENSE) para hacer con este repositorio lo que se apetezca, carece un poco de sentido porque es algo más personal y por el momento no está versionado, pero ante todo libertad :)
+MIT - ver [LICENSE](LICENSE) para más detalles.
